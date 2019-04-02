@@ -1,0 +1,67 @@
+.App {
+    text-align: center;
+}
+
+.title {
+    margin-top: 100px;
+    color: white;
+}
+
+.subtitle {
+    margin-top: 10px;
+    color: white;
+}
+
+.uiNavbar {
+    background-color: transparent;
+}
+
+.background-image { 
+    height: 500px;
+    background-size: cover;
+}
+
+.uiNavBrand {
+    margin-left: 15px;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+.uiNavLogo {
+    height: 100%;
+    width: 100px;
+}
+
+.uiNavLinks {
+    color: white;
+    font-family: 'Monda', sans-serif;
+}
+
+.uiNavLinks:hover {
+    color: lightblue;
+    font-family: 'Monda', sans-serif;
+}
+
+.uiLinkInput {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Monda', sans-serif;
+}
+
+.uiInput {
+    width: 50%;
+}
+
+.uiInputBox {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-size: 12px !important; 
+}
+
+.uiButton {
+    background-color: #ee6123;
+    font-size: 14px !important;
+    color: white;
+}
