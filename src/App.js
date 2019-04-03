@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './components/Navbar';
 import LinkInput from './components/LinkInput';
 import bgImage from './assets/svgs/background-image.png';
-//import './sdk.js';
+import BitlySDK from './sdk.js';
 import './style/App.css';
 
 class App extends Component {
