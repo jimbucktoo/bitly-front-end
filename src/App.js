@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Navbar from './components/Navbar';
 import LinkInput from './components/LinkInput';
 import bgImage from './assets/svgs/background-image.png';
-import BitlySDK from './sdk.js';
 import './style/App.css';
+import BitlySDK from './sdk.js';
 
 class App extends Component {
     render() {
