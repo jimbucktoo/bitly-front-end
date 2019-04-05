@@ -5,6 +5,14 @@ import bgImage from './assets/svgs/background-image.png';
 import './style/App.css';
 import BitlySDK from './sdk.js';
 
+const bitlySDK = new BitlySDK({
+    accessToken: ''
+});
+
+bitlySDK.shorten('http://google.com/').then(function(result){
+    console.log(result);
+});
+
 class App extends Component {
     render() {
         return (
