@@ -14,6 +14,7 @@
 
 .uiNavbar {
     background-color: transparent;
+    margin-left: 100px;
 }
 
 .background-image { 
@@ -57,11 +58,28 @@
 .uiInputBox {
     padding-top: 20px !important;
     padding-bottom: 20px !important;
-    font-size: 12px !important; 
+    font-size: 14px !important; 
+    height: auto !important;
+}
+
+.uiInputBox:focus {
+    border-color: #ee6123;
+    box-shadow: none;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-size: 14px !important; 
+    height: auto !important;
 }
 
 .uiButton {
     background-color: #ee6123;
     font-size: 14px !important;
     color: white;
+}
+
+.uiButton:focus {
+    background-color: #ee6123;
+    font-size: 14px !important;
+    color: white;
+    box-shadow: none;
 }
