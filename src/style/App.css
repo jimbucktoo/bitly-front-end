@@ -1,13 +1,11 @@
-.App {
+.maintitle {
     text-align: center;
-}
-
-.title {
     margin-top: 100px;
     color: white;
 }
 
 .subtitle {
+    text-align: center;
     margin-top: 10px;
     color: white;
 }
@@ -82,4 +80,45 @@
     font-size: 14px !important;
     color: white;
     box-shadow: none;
+}
+
+.uiTable {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.table-list {
+    width: 50%;
+}
+
+.uiTableItem {
+    background-color: white;
+}
+
+.bitlink {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #ee6123 !important;
+}
+
+.underline:hover {
+    text-decoration: underline; 
+}
+
+.title {
+    color: #444444;
+}
+
+.long-url {
+    color: #9b9b9b;
+}
+
+.clicks {
+    margin-top: 30px;
+}
+
+.click-icon {
+    width: 30px;
+    margin-left: 5px;
 }
