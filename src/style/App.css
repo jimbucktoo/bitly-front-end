@@ -22,7 +22,7 @@
 
 .uiNavBrand {
     margin-left: 15px;
-    font-family: 'Pacifico', cursive;
+    font-family: "Pacifico", cursive;
     font-size: 35px;
     color: white;
 }
@@ -34,19 +34,19 @@
 
 .uiNavLinks {
     color: white;
-    font-family: 'Monda', sans-serif;
+    font-family: "Monda", sans-serif;
 }
 
 .uiNavLinks:hover {
     color: lightblue;
-    font-family: 'Monda', sans-serif;
+    font-family: "Monda", sans-serif;
 }
 
 .uiLinkInput {
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    font-family: 'Monda', sans-serif;
+    font-family: "Monda", sans-serif;
 }
 
 .uiInput {
@@ -114,6 +114,10 @@
     color: #9b9b9b;
 }
 
+.long-url:hover {
+    color: #444444;
+}
+
 .clicks {
     margin-top: 30px;
 }
@@ -121,4 +125,13 @@
 .click-icon {
     width: 30px;
     margin-left: 5px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
 }

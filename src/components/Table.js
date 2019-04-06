@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import TableItem from "./TableItem";
-import "../style/App.css";
+import React, { Component } from "react"
+import TableItem from "./TableItem"
+import "../style/App.css"
 
 class Table extends Component {
 
