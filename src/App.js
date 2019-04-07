@@ -58,7 +58,7 @@ class App extends Component {
                 <div className="background-image" style ={ { backgroundImage: "url("+bgImage+")" } }>
                     <Navbar />
                     <h1 class="maintitle"><b>SHORTEN. SHARE. MEASURE.</b></h1>
-                    <h6 class="subtitle">Join Bitly, the world"s leading link management platform.</h6>
+                    <h6 class="subtitle">Join Bitly, the world's leading link management platform.</h6>
                     <LinkInput onInputLinkSubmit={link}/>
                     <Table data={this.state.data}/>
                 </div>
