@@ -49,6 +49,12 @@
     font-family: "Monda", sans-serif;
 }
 
+@media (max-width: 575px) { 
+    .uiInput {
+        width: 90% !important;
+    }
+}
+
 .uiInput {
     width: 50%;
 }
