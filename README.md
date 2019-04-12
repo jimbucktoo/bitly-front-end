@@ -1,6 +1,10 @@
 # bitly-front-end
 
-bitly-front-end is an application created in javascript to utilize bitly's link management API.
+bitly-front-end is a single page web application constructed in javascript to access bitly's link shortening API and create a quality user experience around it.
+
+## Links
+
+* [bitly-front-end](https://bitly-front-end.herokuapp.com/) - bitly-front-end official website.
 
 ## Technologies
 
