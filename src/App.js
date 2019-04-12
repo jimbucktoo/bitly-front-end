@@ -4,6 +4,7 @@ import LinkInput from "./components/LinkInput"
 import bgImage from "./assets/svgs/background-image.png"
 import "./style/App.css"
 import _ from "lodash"
+import "dotenv"
 import BitlySDK from "./sdk.js"
 import Table from "./components/Table"
 
@@ -22,7 +23,7 @@ class App extends Component {
     async linkShorten(longUrl) {
         try {
             const bitlySDK = new BitlySDK({
-                accessToken: ""
+                accessToken: process.env.REACT_APP_DEV_API_URL
             })
 
             const results = await bitlySDK.shorten(longUrl).then(function(result){
