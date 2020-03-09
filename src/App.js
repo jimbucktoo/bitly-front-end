@@ -56,13 +56,16 @@ class App extends Component {
         const link = _.debounce((longUrl) => {this.linkShorten(longUrl)}, 300)
         return (
             <div className="App">
-                <div className="background-image" style ={ { backgroundImage: "url("+bgImage+")" } }>
-                    <Navbar />
-                    <h1 class="maintitle"><b>SHORTEN. SHARE. MEASURE.</b></h1>
-                    <h6 class="subtitle">Join Bitly, the world's leading link management platform.</h6>
-                    <LinkInput onInputLinkSubmit={link}/>
-                    <Table data={this.state.data}/>
-                </div>
+            <div className="background">
+            <div className="background-image" style ={ { backgroundImage: "url("+bgImage+")" } }>
+            <Navbar />
+            <h1 class="maintitle"><b>SHORTEN. SHARE. MEASURE.</b></h1>
+            <h6 class="subtitle">Bitly helps businesses shine by transforming their links into powerful tools for marketers and customer support teams.</h6>
+            <h6 class="subtitle">Join Bitly, the world's leading link management platform.</h6>
+            <LinkInput onInputLinkSubmit={link}/>
+            <Table data={this.state.data}/>
+            </div>
+            </div>
             </div>
         )
     }

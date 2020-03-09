@@ -1,6 +1,11 @@
+html {
+    background-color: #68B1DA;
+}
+
 .maintitle {
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 37px;
     color: white;
 }
 
@@ -15,9 +20,17 @@
     margin-left: 100px;
 }
 
+.background {
+    background-color: #68B1DA;
+    height: 100vh;
+    margin-bottom: 700px;
+}
+
 .background-image { 
-    height: 500px;
+    height: 100%;
+    background-position: center;
     background-size: cover;
+    padding-bottom: 500px;
 }
 
 .uiNavBrand {
