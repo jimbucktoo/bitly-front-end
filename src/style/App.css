@@ -11,6 +11,10 @@ html {
     border-radius: 10px;
 }
 
+.nav-logo {
+    width: 93px;
+}
+
 @media (max-width: 575px) { 
     .bitly-logo {
         display: block;
@@ -37,7 +41,8 @@ html {
 
 .uiNavbar {
     background-color: transparent;
-    margin-left: 100px;
+    margin-left: 3vw;
+    padding-top: 3vh;
 }
 
 .background {
