@@ -7,6 +7,7 @@ import _ from "lodash"
 import "dotenv"
 import BitlySDK from "./sdk.js"
 import Table from "./components/Table"
+import bitly from "./assets/svgs/bitly.png"
 
 class App extends Component {
 
@@ -59,6 +60,7 @@ class App extends Component {
             <div className="background">
             <div className="background-image" style ={ { backgroundImage: "url("+bgImage+")" } }>
             <Navbar />
+            <img className="bitly-logo" src={bitly} />
             <h1 class="maintitle"><b>SHORTEN. SHARE. MEASURE.</b></h1>
             <h6 class="subtitle">Bitly helps businesses shine by transforming their links into powerful tools for marketers and customer support teams.</h6>
             <h6 class="subtitle">Join Bitly, the world's leading link management platform.</h6>
