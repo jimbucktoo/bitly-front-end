@@ -11,6 +11,17 @@ html {
     border-radius: 10px;
 }
 
+@media (max-width: 575px) { 
+    .bitly-logo {
+        display: block;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 10px;
+    }
+}
+
 .maintitle {
     text-align: center;
     margin-top: 70px;

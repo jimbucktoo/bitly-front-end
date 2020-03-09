@@ -7,7 +7,7 @@ import _ from "lodash"
 import "dotenv"
 import BitlySDK from "./sdk.js"
 import Table from "./components/Table"
-import bitly from "./assets/svgs/bitly.png"
+import bitly from "./assets/svgs/bitly.svg"
 
 class App extends Component {
 
