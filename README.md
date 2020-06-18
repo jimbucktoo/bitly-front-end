@@ -1,10 +1,10 @@
 # bitly-io
 
-bitly-io is a single page web application created in javascript to access bitly's link shortening API and fabricate a quality user experience around it.
+bitly-io is a single page web application created in javascript to access Bitly's link shortening API and fabricate a quality user experience around it.
 
 ## Links
 
-* [bitly-io](https://bitly-io.surge.sh/) - bitly-front-end official website.
+* [bitly-io](https://bitly-io.surge.sh/) - bitly-io official website.
 
 ## Technologies
 
