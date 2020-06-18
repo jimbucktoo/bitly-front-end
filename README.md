@@ -1,10 +1,10 @@
-# bitly-front-end
+# bitly-io
 
-bitly-front-end is a single page web application created in javascript to access bitly's link shortening API and fabricate a quality user experience around it.
+bitly-io is a single page web application created in javascript to access bitly's link shortening API and fabricate a quality user experience around it.
 
 ## Links
 
-* [bitly-front-end](https://bitly-front-end.herokuapp.com/) - bitly-front-end official website.
+* [bitly-io](https://bitly-io.surge.sh/) - bitly-front-end official website.
 
 ## Technologies
 
@@ -38,7 +38,7 @@ A step by step series of examples that tell you how to get a development env run
 1. Clone Repository:
 
 ```
-git clone https://github.com/jimbucktoo/bitly-front-end.git
+git clone https://github.com/jimbucktoo/bitly-io.git
 ```
 
 2. Install Dependencies:
