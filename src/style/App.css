@@ -19,17 +19,6 @@ html {
     width: 93px;
 }
 
-@media (max-width: 575px) { 
-    .bitly-logo {
-        display: block;
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        border-radius: 10px;
-    }
-}
-
 .maintitle {
     text-align: center;
     margin-top: 70px;
@@ -93,12 +82,6 @@ html {
     display: flex;
     justify-content: center;
     font-family: "Monda", sans-serif;
-}
-
-@media (max-width: 575px) { 
-    .uiInput {
-        width: 90% !important;
-    }
 }
 
 .uiInput {
@@ -186,4 +169,23 @@ html {
 
 .ellipsis {
     text-overflow: ellipsis;
+}
+
+@media (max-width: 575px) { 
+    .bitly-logo {
+        display: block;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .uiInput {
+        width: 90% !important;
+    }
+
+    .table-list {
+        width: 90%;
+    }
 }
