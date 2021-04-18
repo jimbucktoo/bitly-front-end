@@ -1,6 +1,6 @@
 # bitly-io
 
-Bitly-io is a full stack application developed to create dynamically shortened links with metrics tracking algorithms via Bitly's link shortening API.
+Bitly-io is a single page application developed to create dynamically shortened links with metrics tracking algorithms via Bitly's link shortening API.
 
 ## Links
 
